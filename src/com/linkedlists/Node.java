@@ -3,7 +3,7 @@ package com.linkedlists;
 public class Node<T> {
 
     T value;
-    Node next;
+    Node<T> next;
 
     public Node(T value) {
         this.value = value;
