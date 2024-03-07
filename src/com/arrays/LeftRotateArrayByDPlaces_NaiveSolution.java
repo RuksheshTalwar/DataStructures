@@ -7,7 +7,7 @@ package com.arrays;
  * Algo to Left rotate an array by number of rotations specified by 'd' 
  *
  */
-public class RotateArray {
+public class LeftRotateArrayByDPlaces_NaiveSolution {
 
 	static void leftRotate(int[] arr, int d, int n){
 		int i;
