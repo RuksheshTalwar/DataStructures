@@ -3,7 +3,7 @@
  *
  */
 
-package com.leetcode.medium;
+package com.leetcode.medium.arrays;
 
 import java.util.HashMap;
 import java.util.Map;

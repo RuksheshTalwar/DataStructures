@@ -1,4 +1,4 @@
-package com.strings;
+package com.leetcode.medium.strings;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
