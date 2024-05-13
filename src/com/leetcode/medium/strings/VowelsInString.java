@@ -1,4 +1,4 @@
-package com.strings;
+package com.leetcode.medium.strings;
 
 public class VowelsInString {
     public static void main(String[] args) {
