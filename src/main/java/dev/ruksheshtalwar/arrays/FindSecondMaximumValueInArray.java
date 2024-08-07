@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.arrays;
+package main.java.dev.ruksheshtalwar.arrays;
 
 public class FindSecondMaximumValueInArray {
     static int findSecondMax(int[] arr) {

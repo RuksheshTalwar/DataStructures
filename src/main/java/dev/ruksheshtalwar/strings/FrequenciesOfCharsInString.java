@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.strings;
+package main.java.dev.ruksheshtalwar.strings;
 
 public class FrequenciesOfCharsInString {
     public static void main(String[] args) {
@@ -14,7 +14,6 @@ public class FrequenciesOfCharsInString {
 
 
              }
-
         }
     }
 }

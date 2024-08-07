@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.basicmaths;
+package main.java.dev.ruksheshtalwar.basicmaths;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.reverse.integer;
+package main.java.dev.ruksheshtalwar.reverse.integer;
 
 import java.util.Scanner;
 

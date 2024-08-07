@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.basicmaths;
+package main.java.dev.ruksheshtalwar.basicmaths;
 
 import java.util.ArrayList;
 import java.util.Collections;

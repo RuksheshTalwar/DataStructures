@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.arrays;
+package main.java.dev.ruksheshtalwar.arrays;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -53,7 +53,6 @@ public class FindDuplicateInArray {
 		for (Entry<String, Integer> entry : entrySet) {
 			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
-		
 		}
 	
 

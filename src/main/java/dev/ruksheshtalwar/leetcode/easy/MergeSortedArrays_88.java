@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.leetcode.easy;
+package main.java.dev.ruksheshtalwar.leetcode.easy;
 
 public class MergeSortedArrays_88 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.arrays;
+package main.java.dev.ruksheshtalwar.arrays;
 
 import java.util.Arrays;
 

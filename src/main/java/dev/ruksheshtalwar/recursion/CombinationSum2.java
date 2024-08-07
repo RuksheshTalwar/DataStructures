@@ -1,6 +1,6 @@
-package dev.ruksheshtalwar.recursion;
+package main.java.dev.ruksheshtalwar.recursion;
 
-import dev.ruksheshtalwar.sorting.QuickSortImpl;
+import main.java.dev.ruksheshtalwar.sorting.QuickSortImpl;
 
 import java.util.*;
 

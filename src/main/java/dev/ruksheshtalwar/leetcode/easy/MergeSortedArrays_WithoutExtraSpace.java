@@ -4,7 +4,7 @@
  *
  */
 
-package dev.ruksheshtalwar.leetcode.easy;
+package main.java.dev.ruksheshtalwar.leetcode.easy;
 
 public class MergeSortedArrays_WithoutExtraSpace {
     public static void main(String[] args) {
@@ -27,10 +27,12 @@ public class MergeSortedArrays_WithoutExtraSpace {
             }
         }
 
+        //Put all arr1 remaining elements in arr3
         while(i < m) {
             arr3[index++] = arr1[i++];
         }
 
+        //Put all arr2 remaining elements in arr3
         while(j < n) {
             arr3[index++] = arr2[j++];
         }

@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.sorting;
+package main.java.dev.ruksheshtalwar.sorting;
 
 public class QuickSortImpl {
     public static void main(String[] args) {

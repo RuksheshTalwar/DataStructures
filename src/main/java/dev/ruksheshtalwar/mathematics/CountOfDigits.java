@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.mathematics;
+package main.java.dev.ruksheshtalwar.mathematics;
 
 public class CountOfDigits {
 
