@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.leetcode.easy;
+package dev.ruksheshtalwar.basics;
 
 public class SwapWithoutExtraSpace {
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
-package dev.ruksheshtalwar;
+package dev.ruksheshtalwar.strings;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class ValidAnagrams {
     public static void main(String[] args) {
@@ -23,4 +26,23 @@ public class ValidAnagrams {
         }
         return true;
     }
+
+    /**
+     * Another way of solving Valid Anagrams problem
+     */
+//    boolean isAnagram_Another(String s, String t) {
+//
+//
+//        Map<Character, Integer> map = new HashMap<>();
+//        int count = 0;
+//        for (Character c : s.toCharArray()) {
+//            if (map.containsKey(c)) {
+//                map.put(c, count++);
+//            } else {
+//                map.put(c, 1);
+//            }
+//
+//        }
+//    }
+
 }

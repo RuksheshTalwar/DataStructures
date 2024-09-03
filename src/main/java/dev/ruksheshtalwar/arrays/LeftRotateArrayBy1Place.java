@@ -9,6 +9,12 @@ public class LeftRotateArrayBy1Place {
         leftRotate(arr, n);
     }
 
+    /**
+     * Time complexity is O(n) -> where n is the number of array elements
+     * Space Complexity -> O(n) -> as we are using N array elements in our algorithm
+     * Extra Space Complexity -> O(1) -> as we are not using any extra space in our algorithm
+     */
+
     static void leftRotate(int[] arr, int n) {
         int temp = arr[0];
 

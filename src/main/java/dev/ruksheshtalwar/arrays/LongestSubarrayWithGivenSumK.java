@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.leetcode.easy.arrays;
+package dev.ruksheshtalwar.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
