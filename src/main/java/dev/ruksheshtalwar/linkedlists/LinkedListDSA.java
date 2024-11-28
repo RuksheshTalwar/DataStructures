@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.linkedlists;
+package main.java.dev.ruksheshtalwar.linkedlists;
 
 import java.util.ArrayList;
 import java.util.List;

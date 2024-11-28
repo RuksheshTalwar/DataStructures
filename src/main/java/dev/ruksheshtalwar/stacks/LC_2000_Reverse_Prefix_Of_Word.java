@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.stacks;
+package main.java.dev.ruksheshtalwar.stacks;
 
 import java.util.Stack;
 

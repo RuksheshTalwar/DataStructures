@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.linkedlists;
+package main.java.dev.ruksheshtalwar.linkedlists;
 
 public class Node<T> {
 

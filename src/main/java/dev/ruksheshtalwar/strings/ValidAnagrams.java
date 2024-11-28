@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.strings;
+package main.java.dev.ruksheshtalwar.strings;
 
 import java.util.HashMap;
 import java.util.Map;

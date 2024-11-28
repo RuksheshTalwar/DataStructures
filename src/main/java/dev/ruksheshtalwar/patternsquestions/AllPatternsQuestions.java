@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.patternsquestions;
+package main.java.dev.ruksheshtalwar.patternsquestions;
 
 import java.util.Scanner;
 

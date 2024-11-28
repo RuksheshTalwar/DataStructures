@@ -1,4 +1,4 @@
-package dev.ruksheshtalwar.printing.stars;
+package main.java.dev.ruksheshtalwar.printing.stars;
 
 
 /**
