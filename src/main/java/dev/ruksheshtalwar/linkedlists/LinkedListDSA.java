@@ -1,4 +1,6 @@
-package main.java.dev.ruksheshtalwar.linkedlists;
+package dev.ruksheshtalwar.linkedlists;
+
+import dev.ruksheshtalwar.linkedlists.Node;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +11,6 @@ public class LinkedListDSA {
         Node<String> b = new Node<>("20");
         Node<String> c = new Node<>("30");
 
-//        System.out.println(a.value);
         a.next = b;
         b.next = c;
 
@@ -21,7 +22,6 @@ public class LinkedListDSA {
         System.out.println("-------------After Insertion---------------");
         printListIteratively(a);
         findFractionalNode(a, 3);
-
     }
 
     private static void findFractionalNode(Node<String> head, int k) {
@@ -33,14 +33,8 @@ public class LinkedListDSA {
         while (fast != null && fast.next != null) {
             slow = slow.next;
         }
-
-
-
-
-
     }
 
-    //Traversing each element of a LinkedList
     static void printListIteratively(Node head) {
         Node current = head;
         while(current != null) {
@@ -49,7 +43,6 @@ public class LinkedListDSA {
         }
     }
 
-    //Traversing the LinkedList Recursively
     static void printListRecursively(Node head) {
         if (head == null) {
             return;

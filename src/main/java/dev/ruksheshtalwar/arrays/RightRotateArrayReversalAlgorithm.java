@@ -3,22 +3,22 @@ package dev.ruksheshtalwar.arrays;
 
 /**
  * 
- * @author rukshesh.talwar
- * Rotating an array using Reversal Algorithm
+ * @author Rukshesh Talwar
+ * Rotating an array to the right by d places using Reversal Algorithm
  *
  */
-public class RotateArrayReversalAlgorithm {
+public class RightRotateArrayReversalAlgorithm {
 	
 	public static void main(String[] args) {
-		int[] arr = {1,2,3,4,5,6,7,8,9,10};
+		int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		int d = 2;
-		leftRotate(arr, d);
+		rightRotate(arr, d);
 		printArray(arr);
 	}
 	
-	private static void leftRotate(int[] arr, int d) {
+	private static void rightRotate(int[] arr, int d) {
 		int n = arr.length;
-		reverseArray(arr, 0, d-1);
+		reverseArray(arr, 0, d - 1);
 		reverseArray(arr, d, n-1);
 		reverseArray(arr, 0, n-1);
 	}

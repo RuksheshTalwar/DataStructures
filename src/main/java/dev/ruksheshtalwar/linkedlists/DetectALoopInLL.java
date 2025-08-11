@@ -1,4 +1,4 @@
-package main.java.dev.ruksheshtalwar.linkedlists;
+package dev.ruksheshtalwar.linkedlists;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,11 +24,19 @@ public class DetectALoopInLL {
         h.next = i;
         i.next = c;
         System.out.println(detectLoop_BruteForceSolution(a));
-        detectLoop_OptimalSolution(a);
+        System.out.println(detectLoop_OptimalSolution(a));
     }
 
-    private static void detectLoop_OptimalSolution(Node<Integer> a) {
+    private static boolean detectLoop_OptimalSolution(Node<Integer> head) {
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
 
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) return true;
+        }
+        return false;
     }
 
     private static boolean detectLoop_BruteForceSolution(Node<Integer> head) {

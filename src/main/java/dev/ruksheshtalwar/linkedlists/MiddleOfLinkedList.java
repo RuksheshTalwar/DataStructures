@@ -1,4 +1,4 @@
-package main.java.dev.ruksheshtalwar.linkedlists;
+package dev.ruksheshtalwar.linkedlists;
 
 public class MiddleOfLinkedList {
     public static void main(String[] args) {

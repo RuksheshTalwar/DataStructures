@@ -1,4 +1,4 @@
-package main.java.dev.ruksheshtalwar.linkedlists;
+package dev.ruksheshtalwar.linkedlists;
 
 import java.util.Stack;
 
